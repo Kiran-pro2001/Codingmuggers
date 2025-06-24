@@ -39,7 +39,7 @@ body:nth-child[1]{
 } */
 
 
-.mybox:nth-child(3){
+.mybox > :nth-child(3){
     background-color: black;
     height: 100px;
     width: 100px;
@@ -52,4 +52,22 @@ body:nth-child[1]{
 .box{
     width: 100px;
     height: 100px;
+}
+
+
+/* .container  p{
+    background-color: aqua;
+} */
+
+
+span >  p > span{
+    background-color: aqua;
+}
+
+
+
+
+.mybox > ul > :nth-child(2){
+    /* transform: translateY(20px); */
+    background-color: beige;
 }
