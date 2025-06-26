@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: antiquewhite;
+    /* overflow: hidden; */
+
+    display: flex;
+}
+.container div{
+    width: 25%;
+    height: 50%;
+}
+
+.box1{
+    background-color: red;
+    /* position: absolute; */
+
+
+    /* top: 500px;  */
+    /* left: 45; */
+}
+
+.box2{
+    background-color: green; 
+}
+
+
+
+.box3{
+    background-color: yellow;
+}
+
+
+.box4{
+    background-color: pink;
+}
+
+p{
+    font-size: 27px;
+}
+
+/* Media Query  */
+
+@media (width <= 1024px) {
+   .container div{
+    width: 50%;
+   } 
+}
+
+/* @media screen and (width <= 1024) {
+    
+} */
