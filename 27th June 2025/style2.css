@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 20px solid red;
+    height: 100vh;
+}
+
+
+.box{
+    height: 500px;
+    width: 500px;
+    background-color: beige;
+
+    border: 20px solid black;
+
+    border-radius: 50px;
+}
+
+
+
+@media screen and (max-width: 827px) {
+    .box{
+        background-color: aqua;
+        border: 20px solid pink;
+        /* box-shadow: 30px 20px green; */
+        opacity: 1; 
+
+
+        box-shadow: 10px 30px 50px   black;
+    }
+}
+
+
+@media screen and (max-width: 327px) {
+    .box{
+        background-color: magenta;
+        border: 20px solid rgb(69, 31, 182);
+        /* box-shadow: 30px 20px green; */
+        opacity: 1; 
+
+
+        box-shadow: 10px 30px 50px   black;
+    }
+}
