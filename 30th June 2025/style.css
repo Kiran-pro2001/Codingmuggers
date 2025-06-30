@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+}
+
+
+body{
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+
+    border: 2px solid black;
+    height: 500px;
+
+    
+}
+
+.container {
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+
+    /* border: 2px solid red */
+
+    border-radius: 20%;
+    color: pink; 
+
+
+}
+
+#first{
+
+    /* margin-top: 100px;
+    margin-left: 100px;
+    margin-bottom: 400px; */
+    margin-block: auto; 
+    /* in y axis - top/bottom*/
+    margin-inline: auto;  
+    /* in x axix -- left/right */
+}
+
+p{
+    color:initial; /*initial ka matlab default value --- black*/
+    color: red; 
+
+    color: inherit; 
+
+    text-align: center;
+}
