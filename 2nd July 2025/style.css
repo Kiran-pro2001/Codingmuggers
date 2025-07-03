@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0; 
+    /* box-sizing: border-box; */
+}
+body{
+    border: 10px solid black;
+}
+
+h1{
+    /* margin: 30px; */
+    border: 1px solid black; 
+    background-color: aqua;
+    color: yellow; 
+    text-transform: capitalize;
+    box-shadow: 10px 20px 30px x    5px red;
+
+   
+}
+
+
+
+
+
+body > :nth-child(2){
+    background-color: pink;
+}
+
+/* body:nth-child(2){
+    background-color: blueviolet;
+} */
+
